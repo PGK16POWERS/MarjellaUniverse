@@ -323,10 +323,11 @@ header {
     background-color: white;
     padding: 1rem;
     align-items: center;
-    width: 70%;
-    border: 0 solid transparent;
+    width: 500px;
+    border: 0 solid black;
     border-radius: 5px;
     gap: 0.7rem
+
 }
 
 .icons {
@@ -337,11 +338,13 @@ header {
 }
 
 #more, #less, #send {
-    font-size: 40px
+    font-size: 40px;
+    cursor: pointer;
 }
 
 #less {
     display: none;
+    color: red;
 }
 .title {
     grid-area: b;
@@ -351,11 +354,17 @@ header {
     font-size: 1.1em;
     font-weight: 500;
     letter-spacing: 1px;
+    padding-right: 1rem;
 }
 
 .ans-para {
     grid-area: d;
     display: none;
+    padding-right: 1rem;
+}
+
+.ans-para p {
+    line-height: 25px;
 }
 
 .empty-div {
