@@ -54,6 +54,39 @@ header {
     border-radius: 5px;
 }
 
+.hs-left, .hs-right {
+    width: 100%;
+    height: 100%;
+}
+
+.hs-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.hs-right h5 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #f2f1ec;
+}
+
+.hs-right h1 {
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #f2f1ec;
+}
+
+.hs-right p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #f2f1ec;
+}
 
 /**** HERO SECTION ****/
 
