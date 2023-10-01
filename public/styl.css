@@ -126,3 +126,54 @@ header {
 
 
 /**** FIRST TIME SECTION ****/
+
+/**** FAQ SECTION ****/
+#faq {
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+/**** FAQ SECTION ****/
+
+/**** CTA ****/
+#cta {
+    min-height: 60vh;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/**** CTA ****/
+
+/**** FOOTER SECTION ****/
+footer {
+    min-height: 60vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 0 solid transparent;
+    border-radius: 10px 10px 0 0;
+    width: 100%
+}
+
+
+
+
+
+
+
+/**** FOOTER SECTION ****/
