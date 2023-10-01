@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #f2f1ec;
+    font-family: var(--monts);
 }
 
 section {
@@ -38,8 +39,6 @@ header {
 }
 
 
-
-
 /**** HEADER SECTION ****/
 
 /**** HERO SECTION ****/
@@ -54,9 +53,6 @@ header {
     border: 0 solid transparent;
     border-radius: 5px;
 }
-
-
-
 
 
 /**** HERO SECTION ****/
@@ -284,20 +280,72 @@ header {
 
 /**** FOOTER SECTION ****/
 footer {
-    min-height: 50vh;
-    padding: 1rem;
+    min-height: auto;
+    padding: 1rem 1rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     border: 0 solid transparent;
     border-radius: 10px 10px 0 0;
+    width: 100%;
+    gap: 1rem;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 100%;
     width: 100%
 }
 
+.ftd-right, .ftd-left {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 4rem
+}
 
+.ftd-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.ftdr-link-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
 
+.ftdr-link-child h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.ftdr-link-child ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.footer-link {
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: black;
+}
+
+.footer-bottom {
+    padding: 1rem;
+    width: 100%;
+    border-top: 2px solid rgb(230, 230, 230);
+    text-align: center;
+}
 
 
 
