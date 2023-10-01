@@ -152,14 +152,60 @@ header {
 
 /**** FAQ SECTION ****/
 #faq {
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
+.faq-div-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
 
+.faq-child {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas:  
+    "a b"
+    "c d ";
+    background-color: white;
+    padding: 1rem 0.5rem;
+    align-items: center;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 5px
+}
+
+.icons {
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#more, #less, #send {
+    font-size: 40px
+}
+
+#less {
+    display: none;
+}
+.title {
+    grid-area: b;
+}
+
+.ans-para {
+    grid-area: c;
+}
+
+.empty-div {
+    grid-area: d;
+}
 
 
 
@@ -167,26 +213,78 @@ header {
 
 /**** CTA ****/
 #cta {
-    min-height: 60vh;
-    padding: 1rem;
+    min-height: 50vh;
+    width: 70%;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     background: linear-gradient(0deg, #16355b, #020c19);
     border: 0 solid transparent;
     border-radius: 5px;
     margin-bottom: 5rem;
+    text-align: center;
+    gap: 1rem;
 }
 
+#cta h2 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: #f2f1ec;
+}
 
+#cta p {
+    font-size: 1.1em;
+    width: 70%;
+    letter-spacing: 2px;
+    color: #f2f1ec;
+}
 
+.cta-div {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0 solid transparent;
+    border-radius: 50px;
+    width: 50%;
+    height:50px;
+    margin-top: 2rem
+}
 
+#emailInp {
+    height: 100%;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 50px;
+    padding: 0 2rem;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-family: var(--monts);
+}
 
+#emailInp:focus {
+    outline: 0 solid transparent;
+}
+
+#send {
+    color: white;
+}
+
+.subbtn {
+    height: 100%;
+    width: 100px;
+    background: linear-gradient( #8bb8aa, #6c9286);
+    border: 0 solid transparent;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
 /**** CTA ****/
 
 /**** FOOTER SECTION ****/
 footer {
-    min-height: 60vh;
+    min-height: 50vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
