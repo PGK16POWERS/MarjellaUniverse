@@ -27,7 +27,7 @@ section {
 
 /**** HEADER SECTION ****/
 header {
-    min-height: 14vh;
+    min-height: 12vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -42,12 +42,13 @@ header {
 /**** HERO SECTION ****/
 #hero-section {
     min-height: 90vh;
+    width: 90%;
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 100%;
     align-items: center; 
-    background-color: linear-gradient(90deg, #289dd2, #0c8bc4);
+    background: linear-gradient( #289dd2, #0c8bc4);
     border: 0 solid transparent;
     border-radius: 5px;
 }
