@@ -115,12 +115,14 @@ header {
 
 /**** BENEFITS SECTION ****/
 #benefits {
-    min-height: 80vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 3rem;
 }
+
 .top-bene-div {
     display: flex;
     justify-content: space-between;
@@ -150,6 +152,11 @@ header {
     color: #050A30;
 }
 
+.bbd-div h4 {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
 .bbd-div p {
     font-size: 0.9em;
     letter-spacing: 1px;
@@ -166,6 +173,24 @@ header {
 
 .tbd-1, .tbd-2 {
     width: 100%;
+}
+
+.tbd-1 h2 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: 800;
+    /*color: #023d8a;*/
+    background: linear-gradient(140deg,  #6c9286, #f2f1ec);
+    background-clip: text;
+    color: transparent;
+}
+
+.tbd-2 p {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #6c9286;
 }
 
 
@@ -186,7 +211,6 @@ header {
 }
 .ft-div-left, .ft-div-right {
     width: 100%;
-    border: 2px solid black;
     height: 100%;
 }
 
@@ -269,11 +293,12 @@ header {
     "a b"
     "c d ";
     background-color: white;
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     align-items: center;
-    width: 100%;
+    width: 70%;
     border: 0 solid transparent;
-    border-radius: 5px
+    border-radius: 5px;
+    gap: 0.7rem
 }
 
 .icons {
@@ -294,12 +319,18 @@ header {
     grid-area: b;
 }
 
+.title p {
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
 .ans-para {
-    grid-area: c;
+    grid-area: d;
 }
 
 .empty-div {
-    grid-area: d;
+    grid-area: c;
 }
 
 
