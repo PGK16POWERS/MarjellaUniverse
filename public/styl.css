@@ -23,7 +23,9 @@ section {
 }
 
 :root {
-
+    --monts: 'Montserrat', sans-serif;
+    --nuns: 'Nunito', sans-serif;
+    --robs: 'Roboto', sans-serif;
 }
 
 /**** HEADER SECTION ****/
