@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
       if (inpField.value.length === 0) {
         e.preventDefault();
-        errMessage.textContent = "Situation Bruvvvisto";
+        errMessage.textContent = "Enter Valid Email";
       } else {
-        console.log("Khuzani");
+        errMessage.textContent = "";
       }
     });
   });
