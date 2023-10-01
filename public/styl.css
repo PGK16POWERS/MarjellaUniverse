@@ -61,7 +61,7 @@ header {
 
 /**** BENEFITS SECTION ****/
 #benefits {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,9 @@ header {
     border: 0 solid transparent;
     border-radius: 5px;
 }
-
+.ft-div-left, .ft-div-right {
+    width: 100%;
+}
 
 
 
