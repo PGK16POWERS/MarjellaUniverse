@@ -103,3 +103,22 @@ header {
 
 
 /**** BENEFITS SECTION ****/
+
+/**** FIRST TIME SECTION ****/
+#first-time {
+    min-height: 100vh;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    align-items: center; 
+    background: linear-gradient( #8bb8aa, #6c9286);
+    border: 0 solid transparent;
+    border-radius: 5px;
+}
+
+
+
+
+
+/**** FIRST TIME SECTION ****/
