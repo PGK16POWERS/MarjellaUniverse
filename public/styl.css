@@ -428,7 +428,10 @@ header {
 #errMess {
     font-size: 1em;
     letter-spacing: 1px;
+    font-weight: 500;
+    font-family: var(--nuns);
     color: red;
+    margin-left: 10px;
 }
 
 
