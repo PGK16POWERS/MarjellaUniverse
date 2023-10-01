@@ -52,19 +52,8 @@ header {
     border: 0 solid transparent;
     border-radius: 5px;
 }
-.top-bene-div {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 100%;
-    align-items: center;
-    gap:2rem;
-    padding: 2rem 0
-}
 
-.tbd-1 {
-    width: 100%;
-    border: 2px solid black;
-}
+
 
 
 
@@ -78,11 +67,37 @@ header {
     align-items: center;
     gap: 3rem;
 }
-.top-bene-div, .bot-bene-div {
+.top-bene-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+}
+
+.bot-bene-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.bbd-div {
+    width: 300px;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 300px;
+}
+
+.top-bene-div {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    align-items: center;
+    padding: 2rem 0
+}
+
+.tbd-1, .tbd-2 {
+    width: 100%;
 }
 
 
