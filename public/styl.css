@@ -84,6 +84,7 @@ header {
     animation: arrow 8s infinite;
 }
 
+
 /**** HEADER SECTION ****/
 
 /**** HERO SECTION ****/
@@ -158,6 +159,25 @@ header {
     font-size: 25px;
     color: #0c8bc4;
     animation: arrow 8s infinite;
+}
+
+@media (max-width: 1000px) {
+    #hero-section {
+        min-height: 90vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center; 
+        background: linear-gradient( #289dd2, #0c8bc4);
+        border: 0 solid transparent;
+        border-radius: 5px;
+        box-shadow: 1px 2px 4px 1px #88857849;
+    }
+
+    .hs-image {
+        width:400px;
+    }
+    
 }
 
 /**** HERO SECTION ****/
@@ -247,6 +267,24 @@ header {
     width: 70px
 }
 
+@media (max-width: 1000px) {
+    .bot-bene-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .top-bene-div {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        text-align: center;
+        padding: 2rem ;
+        gap: 1;
+    }
+}
 
 
 /**** BENEFITS SECTION ****/
@@ -332,6 +370,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1000px){
+    #first-time {
+        min-height: 80vh;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; 
+        background: linear-gradient( #8bb8aa, #6c9286);
+        border: 0 solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px 1px rgba(141, 144, 147, 0.481);
+    }
+
+    .ft-div-left {
+        display: none;
+    }
 }
 
 
@@ -503,6 +559,25 @@ header {
     border-radius: 0 50px 50px 0;
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+    #cta {
+        min-height: 50vh;
+        width: 90%;
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: linear-gradient(0deg, #16355b, #020c19);
+        border: 0 solid transparent;
+        border-radius: 5px;
+        margin-bottom: 5rem;
+        text-align: center;
+        gap: 1rem;
+        box-shadow: 1px 2px 4px 1px #88857849;
+    }
+}
 /**** CTA ****/
 
 /**** FOOTER SECTION ****/
@@ -574,6 +649,19 @@ footer {
     text-align: center;
 }
 
-
+@media (max-width: 1000px) {
+    .footer-top, .ftd-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ftd-left {
+        display: none;
+    }
+    .ftd-right {
+        align-items: flex-start;
+    }
+}
 
 /**** FOOTER SECTION ****/
