@@ -127,6 +127,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    padding: 0 1rem
 }
 
 .ftd--top h2 {
