@@ -25,7 +25,13 @@ section {
 }
 
 /**** HEADER SECTION ****/
-
+header {
+    min-height: 14vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -33,6 +39,16 @@ section {
 /**** HEADER SECTION ****/
 
 /**** HERO SECTION ****/
+#hero-section {
+    min-height: 90vh;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    align-items: center; 
+    background-color: linear-gradient(90deg, #289dd2, #0c8bc4);
+    
+}
 
 
 
@@ -41,3 +57,15 @@ section {
 
 
 /**** HERO SECTION ****/
+
+/**** BENEFITS SECTION ****/
+#benefits {
+    min-height: 100vh;
+    padding: 5%;
+    
+}
+
+
+
+
+/**** BENEFITS SECTION ****/
