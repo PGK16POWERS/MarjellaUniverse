@@ -118,6 +118,8 @@ header {
 }
 .ft-div-left, .ft-div-right {
     width: 100%;
+    border: 2px solid black;
+    height: 100%;
 }
 
 
