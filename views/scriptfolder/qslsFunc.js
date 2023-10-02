@@ -18,3 +18,4 @@ tdPrice.textContent = timeDemandObject.price
 
 // ACCESS THE TOTAL ELEMENT
 const totalPrice = document.querySelector("#result");
+
