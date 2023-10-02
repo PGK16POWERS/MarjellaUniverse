@@ -20,6 +20,18 @@ app.get("/qoute", (req,res)=> {
     res.render("qoutePage.ejs", data)
 })
 
+app.get("/next", (req,res)=> {
+    res.render("timeDemand.ejs");
+})
+
+app.get("/back", (req,res)=> {
+    res.render("qoutePage.ejs");
+})
+
+app.get("/getQoute", (req,res)=> {
+    res.render("qoutation.ejs");
+})
+
 
 app.listen(6500, ()=> {
     console.log("Is vaar")
