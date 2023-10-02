@@ -225,6 +225,15 @@ section {
     cursor: pointer;
 }
 
+.time-variations {
+    font-size: 0.7em;
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-family: var(--nuns);
+}
+
 
 @media (max-width: 767px) {
     section {
@@ -237,7 +246,7 @@ section {
         font-size: 1.6em;
     }
     .sect-child {
-        padding: 1rem;
+        padding: 1.5rem 1rem;
         width: 100%;
         gap: 1rem;
     }
@@ -251,6 +260,20 @@ section {
     }
     .sect-child h3 {
         font-size: 1em;
+    }
+    .qoutation-div {
+        padding: 2rem 0.5rem;
+        width: 100%;
+    }
+    .qoutation-div .sect-child {
+        padding: 1.5rem 0.3rem;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .brand-logo {
+        width: 120px;
+        margin-left: 1.5rem;
     }
 }
 
