@@ -262,7 +262,7 @@ section {
         font-size: 1em;
     }
     .qoutation-div {
-        padding: 2rem 0.5rem;
+        padding: 2rem 0.3rem;
         width: 100%;
     }
     .qoutation-div .sect-child {
@@ -270,10 +270,15 @@ section {
         width: 100%;
         gap: 1rem;
     }
-
     .brand-logo {
         width: 120px;
         margin-left: 1.5rem;
+    }
+    .qoutation-div .sect-child h3 {
+        font-size: 0.8em;
+    }
+    .qoutation-div .sect-child h4 {
+        font-size: 0.8em;
     }
 }
 
