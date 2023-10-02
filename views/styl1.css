@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f1ec;
+    font-family: var(--monts);
+}
+
+:root {
+    --monts: 'Montserrat', sans-serif;
+    --nuns: 'Nunito', sans-serif;
+    --robs: 'Roboto', sans-serif;
+}
+
+section {
+    width: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#web-type {
+    height: 100vh;
+}
+
+/**** SECTION HEADER ****/
+.sect-header {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black
+}
+
+.sect-header h1 {
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    font-family: var(--monts);
+    font-weight: 600;
+}
+
+
+
+/**** SECTION HEADER ****/
+
+/**** SECTION PARENT ****/
+.sect-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    border: 2px solid black
+}
+
+.sect-child {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    width: 450px;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.radio-button {
+    height: 12px;
+    width: 12px;
+    border: 2px solid salmon;
+    border-radius: 50px;
+}
+
+.sect-child:nth-child(1) .radio-button {
+    height: 12px;
+    width: 12px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    border-radius: 50px;
+}
+
+.sect-child h3 {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+
+
+
+/**** SECTION PARENT ****/
+
+
+/**** BUTTON DIV AREA ****/
+.btn-div {
+    width: 100%;
+    border: 2px solid black;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#nextBtn {
+    padding: 0.6rem 3rem;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-family: var(--nuns);
+    background-color: dodgerblue;
+    color: white;
+    border: 0 solid transparent;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+/**** BUTTON DIV AREA ****/
