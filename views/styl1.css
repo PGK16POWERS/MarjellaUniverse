@@ -33,7 +33,7 @@ section {
     gap: 3rem;
 }
 
-#web-type {
+#web-type, #time-demand, #qoutation {
     height: 100vh;
 }
 
@@ -50,11 +50,6 @@ section {
     font-weight: 600;
 }
 
-
-
-/**** SECTION HEADER ****/
-
-/**** SECTION PARENT ****/
 .sect-parent {
     width: 100%;
     display: flex;
@@ -77,6 +72,12 @@ section {
     cursor: pointer;
 }
 
+.sect-child:hover,
+.sect-child:active {
+    transform: translateY(-2px);
+    box-shadow: 0 1px 4px gainsboro;
+}
+
 .radio-button {
     height: 12px;
     width: 12px;
@@ -87,14 +88,39 @@ section {
 .sect-child h3 {
     font-size: 1.1em;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .selected {
     background-color: salmon;
 }
 
+.time-selected {
+    background-color: rgb(114, 207, 250);
+}
 
+#time-demand .radio-button {
+    height: 12px;
+    width: 12px;
+    border: 2px solid rgb(114, 207, 250);
+    border-radius: 50px;
+}
+
+#qoutation .sect-child:first-child .radio-button {
+    border: 2px solid salmon;
+    background-color: salmon;
+}
+
+#qoutation .sect-child:last-child .radio-button {
+    border: 2px solid rgb(114, 207, 250);
+    background-color: rgb(114, 207, 250);
+}
+
+#qoutation .sect-child:hover,
+#qoutation .sect-child:active {
+    transform: none;
+    box-shadow: 0 0 0 transparent;
+}
 
 
 /**** SECTION PARENT ****/
@@ -125,7 +151,7 @@ section {
     justify-self: flex-start;
 }
 
-#nextBtn {
+#nextBtn, #download {
     padding: 0.6rem 3rem;
     font-size: 1.3em;
     letter-spacing: 1px;
@@ -135,7 +161,6 @@ section {
     border: 0 solid transparent;
     border-radius: 4px;
 }
-
 
 /**** BUTTON DIV AREA ****/
 
@@ -166,8 +191,8 @@ section {
 }
 
 #result {
-    border-top: 1px solid gainsboro; 
-    border-bottom: 1px solid gainsboro; 
+    border-top: 2px solid rgb(250, 250, 250); 
+    border-bottom: 2px solid rgb(240, 240, 240); 
     border-radius: 0px;
     padding: 1rem;
     font-size: 1.1em;
@@ -193,9 +218,8 @@ section {
     align-items: center;
     padding: 1rem 2rem;
     background-color: white;
-    border-top: 1px solid gainsboro; 
-    border-bottom: 1px solid gainsboro; 
-    border-radius: 0px;
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 4px;
     width: 100%;
     gap: 2rem;
     cursor: pointer;

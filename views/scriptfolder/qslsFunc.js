@@ -21,5 +21,18 @@ const totalPrice = document.querySelector("#result");
 var servCost = parseFloat(serviceObject.price);
 var timeCost = parseFloat(timeDemandObject.price);
 var tC = servCost + timeCost
-totalPrice.textContent = `R ${tC}.00`
+totalPrice.textContent = `R ${tC}.00`;
+
+// ACCESS DOWMLOAD LINK
+var downloadBtn = document.querySelector("#download");
+
+downloadBtn.addEventListener("click", ()=> {
+    html2canvas(document.querySelector(".qoutation-div")).then(function(canvas) {
+        const dataURL = canvas.toDataURL("image/png");
+        const a = document.createElement("a");
+        a.href = dataURL;
+        a.download = "quotation.png";
+        a.click();
+      });
+})
 
