@@ -30,6 +30,11 @@ app.get("/back", (req,res)=> {
 
 app.get("/getQoute", (req,res)=> {
     res.render("qoutation.ejs");
+});
+
+app.post("/newsletter", (req,res)=> {
+    const email = req.body.email;
+    
 })
 
 
