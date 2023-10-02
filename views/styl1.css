@@ -225,4 +225,33 @@ section {
     cursor: pointer;
 }
 
+
+@media (max-width: 767px) {
+    section {
+        padding: 2rem 1rem;
+    }
+    #web-type, #time-demand, #qoutation {
+        height: 85vh;
+    }
+    .sect-header h1 {
+        font-size: 1.6em;
+    }
+    .sect-child {
+        padding: 1rem;
+        width: 100%;
+        gap: 1rem;
+    }
+    .radio-button {
+        height: 7px;
+        width: 7px;
+    }
+    #time-demand .radio-button {
+        height: 7px;
+        width: 7px;
+    }
+    .sect-child h3 {
+        font-size: 1em;
+    }
+}
+
 /**** QOUTATION PARENT ****/
