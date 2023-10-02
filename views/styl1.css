@@ -64,6 +64,7 @@ section {
 }
 
 .sect-child {
+    position: relative;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -83,20 +84,15 @@ section {
     border-radius: 50px;
 }
 
-.sect-child:nth-child(1) .radio-button {
-    height: 12px;
-    width: 12px;
-    border: 2px solid salmon;
-    background-color: salmon;
-    border-radius: 50px;
-}
-
 .sect-child h3 {
     font-size: 1.1em;
     letter-spacing: 2px;
     font-weight: 500;
 }
 
+.selected {
+    background-color: salmon;
+}
 
 
 
@@ -113,6 +109,22 @@ section {
     align-items: center;
 }
 
+.td {
+    justify-content: space-between;
+}
+
+#backBtn {
+    padding: 0.6rem 3rem;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-family: var(--nuns);
+    background-color: #6c9286;
+    color: white;
+    border: 0 solid transparent;
+    border-radius: 4px;
+    justify-self: flex-start;
+}
+
 #nextBtn {
     padding: 0.6rem 3rem;
     font-size: 1.3em;
@@ -125,8 +137,68 @@ section {
 }
 
 
-
-
-
-
 /**** BUTTON DIV AREA ****/
+
+/**** QOUTATION PARENT ****/
+.qoutation-div {
+    background-color: white;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    width: 600px;
+}
+
+.brand-logo {
+    width: 160px
+}
+
+.inner-parent-div, .calc-result-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.calc-result-div {
+    align-items: flex-end;
+}
+
+#result {
+    border-top: 1px solid gainsboro; 
+    border-bottom: 1px solid gainsboro; 
+    border-radius: 0px;
+    padding: 1rem;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.amount {
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    position: absolute;
+    right: 5px;
+
+}
+
+.qoutation-div .sect-child {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-top: 1px solid gainsboro; 
+    border-bottom: 1px solid gainsboro; 
+    border-radius: 0px;
+    width: 100%;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+/**** QOUTATION PARENT ****/
