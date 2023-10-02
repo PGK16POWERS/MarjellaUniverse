@@ -234,7 +234,6 @@ section {
     font-family: var(--nuns);
 }
 
-
 @media (max-width: 767px) {
     section {
         padding: 2rem 1rem;
@@ -298,6 +297,10 @@ section {
         color: white;
         border: 0 solid transparent;
         border-radius: 4px;
+    }
+    #result {
+        padding: 1rem 0.3rem;
+        font-size: 1em;
     }
 }
 
