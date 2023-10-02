@@ -280,6 +280,25 @@ section {
     .qoutation-div .sect-child h4 {
         font-size: 0.8em;
     }
+    #qoutation .btn-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #download {
+        padding: 0.6rem 1.5rem;
+        font-size: 1.1em;
+    }
+    .home-link {
+        padding: 0.6rem 1.5rem;
+        font-size: 1.1em;
+        letter-spacing: 1px;
+        font-family: var(--nuns);
+        background-color: rgb(107, 121, 135);
+        color: white;
+        border: 0 solid transparent;
+        border-radius: 4px;
+    }
 }
 
 /**** QOUTATION PARENT ****/
