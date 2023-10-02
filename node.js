@@ -16,7 +16,8 @@ app.get("/", (req,res)=> {
 });
 
 app.get("/qoute", (req,res)=> {
-    res.render("qoutePage.ejs")
+    const data = { title:"Danko Supreme"}
+    res.render("qoutePage.ejs", data)
 })
 
 
